@@ -1,0 +1,8 @@
+production:
+    dialect: mysql
+    datasource: root:@tcp(127.0.0.1:3306)/testdb?parseTime=true
+    dir: migrations
+development:
+    dialect: mysql
+    datasource: root:@tcp(127.0.0.1:3306)/testdb?parseTime=true
+    dir: migrations
